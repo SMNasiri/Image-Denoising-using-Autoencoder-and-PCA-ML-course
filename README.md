@@ -14,5 +14,26 @@ The project utilizes a standard image dataset such as:
 
 Each image is corrupted by adding synthetic noise (e.g., Gaussian noise), simulating real-world scenarios.
 
+---
+
+## Results
+Here are some examples of the results achieved using both methods:
+
+### **Autoencoder Results**
+The following examples demonstrate the denoising performance of the Autoencoder:
+- **Original Image** | **Noisy Image** | **Denoised Image (Autoencoder)**:
+  ![Autoencoder Results](output1.png)
+  ![Autoencoder Results](output2.png)
+  ![Autoencoder Results](output3.png)
+  ![Autoencoder Results](output4.png)
+
+### **PCA Results**
+The following examples demonstrate the denoising performance of PCA:
+- **Original Image** | **Noisy Image** | **Denoised Image (PCA)**:
+  ![PCA Results](output5.png)
+  ![PCA Results](output6.png)
+  ![PCA Results](output7.png)
+  ![PCA Results](output8.png)
+
 
 
