@@ -14,25 +14,5 @@ The project utilizes a standard image dataset such as:
 
 Each image is corrupted by adding synthetic noise (e.g., Gaussian noise), simulating real-world scenarios.
 
-## Implementation Steps
 
-1. **Data Preprocessing**:
-   - Normalize image pixel values.
-   - Add synthetic noise to create noisy input images.
-
-2. **Autoencoder-Based Denoising**:
-   - Construct an autoencoder using TensorFlow/Keras.
-   - Train the autoencoder to minimize reconstruction loss.
-   - Evaluate the denoised output.
-
-3. **PCA-Based Denoising**:
-   - Reshape images into vectors.
-   - Apply PCA to reconstruct images with reduced noise.
-
-4. **Comparison**:
-   - Evaluate both methods using metrics like PSNR (Peak Signal-to-Noise Ratio) and MSE (Mean Squared Error).
-
-## Results
-- Visual and quantitative comparison of denoising results.
-- Analysis of strengths and weaknesses of each method.
 
